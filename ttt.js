@@ -15,35 +15,35 @@ function changeCell(button){
         buttons[button-1].innerHTML = "O"
         turnOrder--;
     }
-    if(buttons[0].innerHTML==buttons[1].innerHTML && buttons[0].innerHTML==buttons[2].innerHTML)
+    if(buttons[0].innerHTML==buttons[1].innerHTML && buttons[0].innerHTML==buttons[2].innerHTML && buttons[0].innerHTML!="")
     {
         
     }
-    else if(buttons[3].innerHTML==buttons[4].innerHTML && buttons[3].innerHTML==buttons[5].innerHTML)
+    else if(buttons[3].innerHTML==buttons[4].innerHTML && buttons[3].innerHTML==buttons[5].innerHTML && buttons[3].innerHTML!="")
     {
         
     }
-    else if(buttons[6].innerHTML==buttons[7].innerHTML && buttons[6].innerHTML==buttons[8].innerHTML)
+    else if(buttons[6].innerHTML==buttons[7].innerHTML && buttons[6].innerHTML==buttons[8].innerHTML && buttons[6].innerHTML!="")
     {
         
     }
-    else if(buttons[0].innerHTML==buttons[3].innerHTML && buttons[0].innerHTML==buttons[6].innerHTML)
+    else if(buttons[0].innerHTML==buttons[3].innerHTML && buttons[0].innerHTML==buttons[6].innerHTML && buttons[0].innerHTML!="")
     {
         
     }
-    else if(buttons[1].innerHTML==buttons[4].innerHTML && buttons[1].innerHTML==buttons[7].innerHTML)
+    else if(buttons[1].innerHTML==buttons[4].innerHTML && buttons[1].innerHTML==buttons[7].innerHTML && buttons[1].innerHTML!="")
     {
         
     }
-    else if(buttons[2].innerHTML==buttons[5].innerHTML && buttons[2].innerHTML==buttons[8].innerHTML)
+    else if(buttons[2].innerHTML==buttons[5].innerHTML && buttons[2].innerHTML==buttons[8].innerHTML && buttons[2].innerHTML!="")
     {
         
     }
-    else if(buttons[0].innerHTML==buttons[4].innerHTML && buttons[0].innerHTML==buttons[8].innerHTML)
+    else if(buttons[0].innerHTML==buttons[4].innerHTML && buttons[0].innerHTML==buttons[8].innerHTML && buttons[0].innerHTML!="")
     {
         
     }
-    else if(buttons[2].innerHTML==buttons[4].innerHTML && buttons[2].innerHTML==buttons[6].innerHTML)
+    else if(buttons[2].innerHTML==buttons[4].innerHTML && buttons[2].innerHTML==buttons[6].innerHTML && buttons[2].innerHTML!="")
     {
         
     }
