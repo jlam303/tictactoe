@@ -1,9 +1,13 @@
+body{
+    background-color: aqua;
+}
 .buttons{
     height: 20vmin;
     width: 20vmin;
     padding: 0%;
     border: solid black 5px;
     font-size: xx-large;
+    background-color: white;
 }
 #cell1 {
     grid-area: c1;
@@ -40,9 +44,16 @@
 #cell9 {
     grid-area: c9;
 }
+#text{
+    grid-area: text;
+    text-align: center;
+    font-size: larger;
+}
+#resetButton{
+    grid-area: reset;
+}
 #container1{
     margin: auto;
-    height: 59vmin;
     width:60vmin;
     display: grid;
     grid-template-columns: auto;
@@ -51,5 +62,8 @@
     "c1 c2 c3"
     "c4 c5 c6"
     "c7 c8 c9"
+    ". text ."
+    ". reset ."
     ;
+
 }
