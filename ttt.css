@@ -1,0 +1,55 @@
+.buttons{
+    height: 20vmin;
+    width: 20vmin;
+    padding: 0%;
+    border: solid black 5px;
+    font-size: xx-large;
+}
+#cell1 {
+    grid-area: c1;
+}
+
+#cell2 {
+    grid-area: c2;
+}
+
+#cell3 {
+    grid-area: c3;
+}
+
+#cell4 {
+    grid-area: c4;
+}
+
+#cell5 {
+    grid-area: c5;
+}
+
+#cell6 {
+    grid-area: c6;
+}
+
+#cell7 {
+    grid-area: c7;
+}
+
+#cell8 {
+    grid-area: c8;
+}
+
+#cell9 {
+    grid-area: c9;
+}
+#container1{
+    margin: auto;
+    height: 59vmin;
+    width:60vmin;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "c1 c2 c3"
+    "c4 c5 c6"
+    "c7 c8 c9"
+    ;
+}
